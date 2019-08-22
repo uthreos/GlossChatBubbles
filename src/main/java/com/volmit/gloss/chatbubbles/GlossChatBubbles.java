@@ -43,7 +43,7 @@ public class GlossChatBubbles extends MortarPlugin implements Listener
 
 		catch(Exception e)
 		{
-			System.out.println("Failed to read gloss chat bubbles config.");
+			System.out.println("Yapılandırma dosyası yenilenemedi.");
 			e.printStackTrace();
 		}
 	}
